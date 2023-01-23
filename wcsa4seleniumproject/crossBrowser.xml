@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test1">
+  <parameter name="url" value="chrome"></parameter>
+    <classes>
+      <class name="bikes.TC_Bikes_012"/>
+      <class name="bikes.TC_Bikes_013"/>
+      <class name="bikes.TC_Bikes_010"/>
+      <class name="bikes.TC_Bikes_011"/>
+      <class name="cars.TC_Cars_021"/>
+      <class name="cars.TC_Cars_022"/>
+      <class name="cars.TC_Cars_020"/>
+      <class name="cars.TC_Cars_023"/>
+    </classes>
+  </test> <!-- Test -->
+  <test thread-count="5" name="Test2">
+  <parameter name="url" value="firefox"></parameter>
+    <classes>
+      <class name="bikes.TC_Bikes_012"/>
+      <class name="bikes.TC_Bikes_013"/>
+      <class name="bikes.TC_Bikes_010"/>
+      <class name="bikes.TC_Bikes_011"/>
+      <class name="cars.TC_Cars_021"/>
+      <class name="cars.TC_Cars_022"/>
+      <class name="cars.TC_Cars_020"/>
+      <class name="cars.TC_Cars_023"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
