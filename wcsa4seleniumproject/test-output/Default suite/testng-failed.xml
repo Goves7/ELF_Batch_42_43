@@ -3,15 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="configurationAnnotations.TC_ActiTimeLogin_001">
+      <class name="workingWithTestNG.ToUnderstandCrossBrowserTesting">
         <methods>
-          <include name="logOutOfApp"/>
-          <include name="browserTearDown"/>
-          <include name="browserSetUp"/>
-          <include name="loginToApplication"/>
-          <include name="login"/>
+          <include name="register" invocation-numbers="0"/>
         </methods>
-      </class> <!-- configurationAnnotations.TC_ActiTimeLogin_001 -->
+      </class> <!-- workingWithTestNG.ToUnderstandCrossBrowserTesting -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -12,11 +12,13 @@ public class BasePage {
 		PageFactory.initElements(driver, this);
 	}
 	
+	
 	@FindBy(partialLinkText="Bus")
 	private WebElement busNavBarIcon;
 	
 	public WebElement getbusNavBarIcon() {
 		return busNavBarIcon;
 	}
+	
 	
 }

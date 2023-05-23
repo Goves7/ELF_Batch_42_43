@@ -17,8 +17,10 @@ public class SearchBusesForThreeDifferentFromAndToLocations {
 		
 		driver.get("https://in.via.com/");
 		BasePage basePage= new BasePage(driver);
+		
 		basePage.getbusNavBarIcon().click();
 		BusHomePage busHomePage= new BusHomePage(driver);
+		
 		busHomePage.getFromTextField().sendKeys("Bangalore");
 		busHomePage.getBangaloreSearchSuggestion().click();
 		busHomePage.getToTextField().sendKeys("Goa");
